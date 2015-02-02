@@ -1,0 +1,50 @@
+body {
+	background-color: #FFFFFA;
+}
+img {
+	max-width: 100%;
+	-webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+}
+section {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.centrar {
+	float: none;
+	margin-bottom: 100px;
+	margin-top: 80px;	
+}
+.centro {
+	float: none;
+	margin-left: 10px;
+}
+.fuenteh {
+	font-family: 'Pacifico', cursive;
+	font-size: 3em;
+	color: #00BB5f;
+}
+.fuentep {
+	font-size: 1.3em;
+}
+.navbar {
+	background-color: #00BB5f;
+}
+.navbar-brand {
+	font-family: 'Pacifico', cursive;
+	font-size: 2.5em;
+}
+.pacifico {
+	font-family: 'Pacifico', cursive;
+	text-align: center;
+}
+.retraso {
+	-webkit-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	animation-delay: 1s;
+}
+@media (max-width: 767px) {
+  .pacifico {
+    font-size: 1em;
+}
+
